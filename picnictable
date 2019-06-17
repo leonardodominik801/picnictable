@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+"""picnictable: Display a dictionary of information 
+  in a neatly aligned table-like format."""
+
+def printPicnic(itemsdict, lwidth, rwidth):
+    print('PICNIC ITEMS'.center(lwidth + rwidth, '-'))
+    for k,v in itemsdict.items():
+        print(k.ljust(lwidth, '.') + str(v).rjust(rwidth))
+
+printPicnic(picnicItems, 12, 5)
+printPicnic(picnicItems, 20, 6)
