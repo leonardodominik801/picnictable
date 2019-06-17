@@ -1,0 +1,2 @@
+# picnictable
+Display a dictionary of information in a neatly aligned table-like format.
